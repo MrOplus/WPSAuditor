@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WPSConnection</string>
+    <string name="action_recharge">تمدید حساب</string>
+    <string name="action_Register">ثبت نام</string>
+    <string name="refresh">تازه کردن لیست</string>
+    <string name="HostUnreachable">خطا در دسترسی به سرور</string>
+    <string name="FillError">لطفا همه فیلد هارا پر کنید</string>
+    <string name="Close">بستن</string>
+    <string name="Logout">خروج از حساب</string>
+    <string name="Expired">منقضی شده</string>
+    <string name="Connecting">در حال اتصال</string>
+    <string name="Login">ورود</string>
+    <string name="Username">کلمه کاربری</string>
+    <string name="Password">کلمه عبور</string>
+    <string name="NoCredit">اعتبار کافی نیست . برای شارژ مجدد از منو برنامه اقدام فرمایید.</string>
+    <string name="Expire_Date">تاریخ انقضا</string>
+</resources>

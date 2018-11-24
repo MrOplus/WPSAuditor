@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:id="@+id/img_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_wifi_4_4"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Oplus - Router"
+        android:id="@+id/txt_SSID"
+        android:layout_alignTop="@+id/img_icon"
+        android:layout_toEndOf="@+id/img_icon"
+        android:layout_marginLeft="20dp"
+        android:singleLine="true"
+        android:maxLength="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="72:BD:F4:C3:DD:E4"
+        android:id="@+id/txt_bssid"
+        android:layout_alignBottom="@+id/img_icon"
+        android:layout_alignStart="@+id/txt_SSID" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ZZZZZZZZZZZZZZZZZZZZ"
+        android:id="@+id/txt_Vendor"
+        android:layout_below="@+id/txt_SSID"
+        android:layout_alignStart="@+id/txt_SSID"
+        android:layout_marginTop="8dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:maxLength="20" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:id="@+id/img_security_state"
+        android:layout_alignTop="@+id/txt_SSID"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/ic_firewall_off" />
+</RelativeLayout>

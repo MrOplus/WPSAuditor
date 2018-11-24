@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WPSConnection</string>
+    <string name="action_recharge">Renewal</string>
+    <string name="action_Register">Register</string>
+    <string name="refresh">Refresh</string>
+    <string name="HostUnreachable">Unable Access to remote host</string>
+    <string name="FillError">Please fill username and password fields</string>
+    <string name="Close">Close</string>
+    <string name="Logout">Logout</string>
+    <string name="Expired">Expired</string>
+    <string name="Connecting">Connecting to remote host</string>
+    <string name="Login">Login</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="NoCredit">You have not enough credit, Please Recharge your account</string>
+    <string name="Expire_Date">Expire Date</string>
+</resources>
