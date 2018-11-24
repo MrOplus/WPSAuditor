@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle("WPS Connection");
-        toolbar.setSubtitle("8ThBiT Production");
+        toolbar.setSubtitle("");
         pins = new WPSPins();
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_layout);
         mSwipeRefreshLayout.setOnRefreshListener(this);
