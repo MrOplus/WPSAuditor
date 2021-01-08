@@ -1,6 +1,6 @@
 # WPSAuditor
-i've wrote this project in 2016 <br>
-The goal of this project is testing wps enabled devices against some WPS Algorithms to check device security <br>
+I've written this project in 2016 <br>
+The goal of this project is testing WPS enabled devices against some WPS Algorithms to check device security <br>
 
 # Currently Supported Algorithms
 * Generic
@@ -10,7 +10,7 @@ The goal of this project is testing wps enabled devices against some WPS Algorit
 * Arcadyan
 
 # Note
-must of these algorithm were found by Reverse Engineering 
+most of these algorithms were found by Reverse Engineering 
 
 
 
